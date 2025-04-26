@@ -22,7 +22,7 @@ namespace EnverSoft
             var list3A = list1.Intersect(list2);
             Console.WriteLine(string.Join(" ", list3A));
 
-            //Alternative Answer - not using linq
+            //Alternative Answer 
 
             var list3B = "";
             foreach (var item in list1)
@@ -45,7 +45,7 @@ namespace EnverSoft
             Console.WriteLine(string.Join(" ", list4A));
 
 
-            //Alternative Answer - not using linq
+            //Alternative Answer 
 
             var list4B = "";
             foreach (var item in list1)
@@ -68,7 +68,7 @@ namespace EnverSoft
             Console.WriteLine(string.Join(" ", list5A));
 
 
-            //Alternative Answer - not using linq
+            //Alternative Answer
 
             var list5B = "";
             foreach (var item in list2)
